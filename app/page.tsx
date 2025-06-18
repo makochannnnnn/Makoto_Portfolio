@@ -1,6 +1,7 @@
 import Image from "next/image";
 // import React, { useState } from 'react';
 import Name from '../components/Name';
+import Link from 'next/link';
 
 export default function Home() {
   //関数とか変数とか書く場所
@@ -15,6 +16,7 @@ export default function Home() {
         className="rounded-full mb-8"/>
       <Name name="Makoto"/>
       <p className="mt-8 text-gray-600">This is my first Next.js page with App Router and Tailwind CSS.</p>
+      <Link href="/achievment" className="text-blue-500 hover:underline mt-4">実績</Link>
       <button className="bg-white text-black p-2 rounded">Click me</button>
     </main>
   );
