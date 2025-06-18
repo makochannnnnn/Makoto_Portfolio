@@ -17,6 +17,10 @@ export default function Home() {
       <Name name="Makoto"/>
       <p className="mt-8 text-gray-600">This is my first Next.js page with App Router and Tailwind CSS.</p>
       <Link href="/achievment" className="text-blue-500 hover:underline mt-4">実績</Link>
+      <Link href="/technology" className="text-blue-500 hover:underline mt-4">技術</Link>
+      <Link href="/contact" className="text-blue-500 hover:underline mt-4">お問い合わせ</Link>
+      <Link href="/interests" className="text-blue-500 hover:underline mt-4">興味</Link>
+      <Link href="/hobby" className="text-blue-500 hover:underline mt-4">趣味</Link>
       <button className="bg-white text-black p-2 rounded">Click me</button>
     </main>
   );
