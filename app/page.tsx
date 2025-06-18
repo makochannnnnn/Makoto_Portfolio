@@ -20,6 +20,7 @@ export default function Home() {
       <Link href="/technology" className="text-blue-500 hover:underline mt-4">技術</Link>
       <Link href="/contact" className="text-blue-500 hover:underline mt-4">お問い合わせ</Link>
       <Link href="/interests" className="text-blue-500 hover:underline mt-4">興味</Link>
+      <Link href="/hobby" className="text-blue-500 hover:underline mt-4">趣味</Link>
       <button className="bg-white text-black p-2 rounded">Click me</button>
     </main>
   );
