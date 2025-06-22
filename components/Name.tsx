@@ -6,8 +6,9 @@ type UserProps = {
 
 const Name = ({name}: UserProps) => {
   return (
-    <div className='p-4 bg-blue-100 rounded-lg shadow-md'>
-      <p className='text-lg font-semibold text-blue-800'>My name is {name}</p>
+    <div className="mb-8">
+      <p className='text-3xl font-semibold text-orange-400'>My name is... </p>
+      <p className='text-5xl font-semibold text-orange-400'>{name}</p>
     </div>
   );
 };
