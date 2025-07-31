@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "../components/Image";
 // import React, { useState } from 'react';
 import Name from '../components/Name';
 import Status from '../components/Status';
@@ -11,13 +11,11 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-green-300">
         <h1 className="text-4xl font-bold mb-8 text-orange-500">Welcome!!</h1>
       <Image
-        src="/my_face.jpg"
-        alt="Next.js Logo"
-        width={200}
-        height={200}
-        className="rounded-full mb-8"/>
+        image="/my_face.jpg"
+        altText="Next.js Logo"
+      />
       <div>
-        <Name name="Yamamoto Makoto"/>
+        <Name name="Yamamoto Makoto" preface="My Name is..."/>
         <Status status="Nagaoka Univercity of Technology"/>
         <Position position="Honorary Graduate of Ishikawa National Institute of Technology"/>
       </div>
